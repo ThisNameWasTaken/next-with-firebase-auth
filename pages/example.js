@@ -1,6 +1,6 @@
-import Link from 'next/link'
+import Link from 'next/link';
 
-const Example = (props) => {
+const Example = props => {
   return (
     <div>
       <p>
@@ -11,13 +11,7 @@ const Example = (props) => {
         <a>Home</a>
       </Link>
     </div>
-  )
-}
+  );
+};
 
-Example.displayName = 'Example'
-
-Example.propTypes = {}
-
-Example.defaultProps = {}
-
-export default Example
+export default Example;
